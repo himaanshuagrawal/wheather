@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="search" placeholder="Search...">
+            <button class="btn"><img src="image/search.png" width="12" class="searchBtn" alt="Search"></button>
+        </div>
+        <div class="weather">
+            <div class="wImg">
+                <img src="image/sun.png" width="100" alt="Weather Icon" class="weather-icon">
+            </div>
+            <div class="city">
+                <h1>Enter City Name</h1>
+            </div>
+            <div class="temperature">
+                <h2>Temperature: -- °C</h2>
+            </div>
+            <div class="condition">
+                <h2>Condition: --</h2>
+            </div>
+            <div class="info">
+                <div class="detail">
+                    <img src="image/humidity.png" width="20" alt="Humidity Icon">
+                    <p class="humidity">Humidity: --%</p>
+                </div>
+                <div class="detail">
+                    <img src="image/wind-turbine.png" width="20" alt="Wind Icon">
+                    <p class="wind">Wind: -- km/h</p>
+                </div>
+                <div class="detail">
+                    <p class="pressure">Pressure: -- mb</p>
+                </div>
+                <div class="detail">
+                    <p class="visibility">Visibility: -- km</p>
+                </div>
+                <div class="detail">
+                    <p class="uv">UV Index: --</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
